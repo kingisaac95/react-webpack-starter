@@ -18,6 +18,9 @@ module.exports = {
       },
       {
         test: /\.scss$/,
+        include: [
+          path.resolve(__dirname, "styles")
+        ],
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
@@ -33,6 +36,9 @@ module.exports = {
         ],
       }
     ]
+  },
+  resolve: {
+    extensions: ["scss"]
   },
   plugins: [htmlPlugin]
 };
