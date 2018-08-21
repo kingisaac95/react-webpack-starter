@@ -30,14 +30,18 @@ hr {
 .display-middle {
   margin: 0 auto;
   text-align: center;
-  padding: 10%;
+  padding: 100px 10%;
 }
 
 .header {
   h1 {
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 400;
     margin: 10px 0;
+
+    @media only screen and (min-width: 1024px) {
+      font-size: 64px;
+    }
   }
 
   hr {
