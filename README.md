@@ -51,7 +51,7 @@ npm run test
 
 ## Meta
 
-Your Name – [@kingisaac95](https://twitter.com/kingisaac95) – kingdom.orjiewuru@gmail.com
+Orjiewuru Kingdom – [@kingisaac95](https://twitter.com/kingisaac95) – kingdom.orjiewuru@gmail.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
