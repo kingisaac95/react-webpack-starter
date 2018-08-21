@@ -1,0 +1,75 @@
+$font_family: "Raleway", sans-serif;
+$grey: #9e9e9e;
+$white: #ffffff;
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: $font_family;
+}
+
+hr {
+  border: 0;
+    border-top: 1px solid $white;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.bgimg {
+  background-image: url('./images/bg.JPG');
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display-middle {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10%;
+}
+
+.header {
+  h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+  p {
+    font-size: 18px
+  }
+
+  h1, p {
+    color: $white;
+  }
+}
+
+.gray-border {
+  border-color: $grey;
+}
+
+@keyframes animatetop{
+  from {
+    top:-300px;
+    opacity:0
+  }
+  to {
+    top:0;
+    opacity:1
+  }
+}
+
+.animate-top {
+  position: relative;
+  animation: animatetop 0.4s;
+}
