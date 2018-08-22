@@ -65,4 +65,22 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-<!-- Markdown link & img dfn's -->
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel Hackathon Starter, please send an e-mail to Prosper Otemuyiwa at kingdom.orjiewuru@gmail.com. All security vulnerabilities will be promptly addressed.
+
+## Credits
+
+[W3C](https://www.w3schools.com/w3css/tryw3css_templates_coming_soon.htm) - Coming Soon Template
+
+## How can I thank you?
+
+Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
+
+Don't forget to [follow me on twitter!](https://twitter.com/kingisaac95)
+
+Thanks! Orjiewuru Kingdom.
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/kingisaac95/react-webpack-starter/blob/master/LICENSE) for more information.
