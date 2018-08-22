@@ -67,11 +67,12 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel Hackathon Starter, please send an e-mail to Prosper Otemuyiwa at kingdom.orjiewuru@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within React Webpack Starter, please send an e-mail to Orjiewuru Kingdom at kingdom.orjiewuru@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
 [W3C](https://www.w3schools.com/w3css/tryw3css_templates_coming_soon.htm) - Coming Soon Template
+Prosper Otemuyiwa - Laravel Hackathon Starter Readme structure
 
 ## How can I thank you?
 
