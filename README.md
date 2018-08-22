@@ -1,6 +1,6 @@
 # React Webpack Starter
 
-> A simple React, Webpack 4 boilerplate to help you kick start your next React project.
+> A simple React, Webpack 4 boilerplate to help you kick-start your next React project.
 
 ![NpmVersion](https://img.shields.io/npm/v/npm.svg)
 [![Build Status](https://travis-ci.org/kingisaac95/react-webpack-starter.svg?branch=feature%2Fdevelop)](https://travis-ci.org/kingisaac95/react-webpack-starter)
