@@ -39,6 +39,12 @@ Run test
 npm run test
 ```
 
+Run Coverage
+
+```sh
+npm run report-coverage
+```
+
 ## Release History
 
 * 0.1.1
