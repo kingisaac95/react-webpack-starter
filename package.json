@@ -1,6 +1,6 @@
 {
   "name": "react-webpack4",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "a simple react and webpack4 setup",
   "main": "index.js",
   "scripts": {
