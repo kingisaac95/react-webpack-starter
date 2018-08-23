@@ -49,6 +49,14 @@
       "!<rootDir>/node_modules/",
       "!<rootDir>/path/to/dir/"
     ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 40,
+        "functions": 30,
+        "lines": 50,
+        "statements": 50
+      }
+    },
     "coverageReporters": [
       "cobertura",
       "html",

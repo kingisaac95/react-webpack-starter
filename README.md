@@ -4,6 +4,7 @@
 
 ![NpmVersion](https://img.shields.io/npm/v/npm.svg)
 [![Build Status](https://travis-ci.org/kingisaac95/react-webpack-starter.svg?branch=feature%2Fdevelop)](https://travis-ci.org/kingisaac95/react-webpack-starter)
+[![Coverage Status](https://coveralls.io/repos/github/kingisaac95/react-webpack-starter/badge.svg?branch=feature%2Fdevelop)](https://coveralls.io/github/kingisaac95/react-webpack-starter?branch=master)
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 <img width="1440" alt="screen shot 2018-08-21 at 9 02 00 pm" src="https://user-images.githubusercontent.com/26261917/44426324-42d11700-a586-11e8-8e05-8d09bafb9f84.png">
