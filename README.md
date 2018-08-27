@@ -56,6 +56,17 @@ npm run report-coverage
 * 0.0.1
   * Work in progress
 
+### Docker
+
+Build the image with the command
+```sh
+docker build . -t react-webpack-start
+```
+This builds the image with the tag `react-webpack-start`. Once this is completed, you can instantiate the container with the image with the command
+```sh
+docker run -p 8080:8080 -v rws:/app react-webpack-start:latest
+```
+
 ## Meta
 
 Orjiewuru Kingdom – [@kingisaac95](https://twitter.com/kingisaac95) – kingdom.orjiewuru@gmail.com
