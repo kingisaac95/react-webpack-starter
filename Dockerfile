@@ -1,7 +1,7 @@
 FROM node:carbon
 
-LABEL maintainer="KINGDOM ISAAC"
-LABEL version="1.0"
+LABEL maintainer="Orjiewuru Kingdom (kingisaac95)"
+LABEL version="0.1.1"
 
 ENV HOME=/app
 WORKDIR $HOME

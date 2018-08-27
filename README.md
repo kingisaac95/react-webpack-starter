@@ -45,9 +45,45 @@ Run Coverage
 npm run report-coverage
 ```
 
+## Docker
+
+Build the image with the command
+
+```sh
+docker build . -t react-webpack-starter
+```
+
+This builds the image with the tag `react-webpack-starter`. Once this is completed, you can instantiate the container with the image with the command
+
+```sh
+docker run -p 8080:8080 -v rws:/app react-webpack-starter:latest
+```
+
+## Using Makefile
+
+Build Docker Image
+
+```sh
+make build-docker
+```
+
+Run Docker Image
+
+```sh
+make run-docker
+```
+
+Generate Production Build
+
+```sh
+make build
+```
+
 ## Release History
 
 * 0.1.1
+  * Dockerize application
+  * Add Makefile
   * Update Readme and add badges
   * Setup Travis build and add tests
 * 0.1.0
@@ -55,17 +91,6 @@ npm run report-coverage
   * Added first few basic components with styling
 * 0.0.1
   * Work in progress
-
-### Docker
-
-Build the image with the command
-```sh
-docker build . -t react-webpack-start
-```
-This builds the image with the tag `react-webpack-start`. Once this is completed, you can instantiate the container with the image with the command
-```sh
-docker run -p 8080:8080 -v rws:/app react-webpack-start:latest
-```
 
 ## Meta
 
