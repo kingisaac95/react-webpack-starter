@@ -45,9 +45,45 @@ Run Coverage
 npm run report-coverage
 ```
 
+## Docker
+
+Build the image with the command
+
+```sh
+docker build . -t react-webpack-starter
+```
+
+This builds the image with the tag `react-webpack-starter`. Once this is completed, you can instantiate the container with the image with the command
+
+```sh
+docker run -t -i -p 8080:8080 -v rws:/app react-webpack-starter:latest
+```
+
+## Using Makefile
+
+Build Docker Image
+
+```sh
+make build-docker
+```
+
+Run Docker Image
+
+```sh
+make run-docker
+```
+
+Generate Production Build
+
+```sh
+make build
+```
+
 ## Release History
 
 * 0.1.1
+  * Dockerize application
+  * Add Makefile
   * Update Readme and add badges
   * Setup Travis build and add tests
 * 0.1.0
@@ -70,7 +106,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+5. Create a new Pull Request to branch `feature/develop`
 
 ## Security Vulnerabilities
 
