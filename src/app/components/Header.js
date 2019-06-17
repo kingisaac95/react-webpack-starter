@@ -6,6 +6,7 @@ const Header = () => (
       <h1 className="animate-top">React and Webpack :)</h1>
       <hr className="gray-border" />
       <p>Hello world!</p>
+      <p>Hurray!!! We now have Redux setup added to our configuration 🎉🎉🎉</p>
     </div>
   </div>
 );
